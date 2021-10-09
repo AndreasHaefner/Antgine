@@ -1,0 +1,3 @@
+[submodule "antgine/TPD/spdlog"]
+	path = antgine/TPD/spdlog
+	url = https://github.com/gabime/spdlog
