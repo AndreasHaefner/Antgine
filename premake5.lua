@@ -7,7 +7,7 @@ workspace "antgine"
 	"Dist"
 	}
 
-outputdir = "%{cfg.buildcfg}-&{cfg.system}-%{cfg.architecture}"
+outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 project "antgine"
 	location "antgine"
@@ -22,11 +22,10 @@ project "antgine"
 	"%{prj.name}/src/**.cpp"
 	}
 
-	includedirs {
-	"%{prj.name}/TPD/spdlog/include/",
-	"%{prj.name}/antgine/src/antgine/Header/"
+	includedirs{
+	"%{prj.name}/TPD/spdlog/include", "%{prj.name}/src/%{prj.name}/Header"
 	}
-
+	
 
 	filter "system:windows"
 		cppdialect "C++17"
@@ -39,7 +38,7 @@ project "antgine"
 		}
 
 		postbuildcommands{
-			("{COPY} %{cfg.buildtarget.relpath} ../bin" .. outputdir .. "/dasWuseln")
+			("{Copy} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/dasWuseln")
 		}
 
 
@@ -56,6 +55,10 @@ project "antgine"
 		optimize "On"
 
 
+
+
+
+
 project "dasWuseln"
 	location "dasWuseln"
 	kind "ConsoleApp"
@@ -69,10 +72,7 @@ project "dasWuseln"
 	"%{prj.name}/src/**.cpp"
 	}
 
-	includedirs{
-	"antgine/TPD/spdlog/include/",
-	"antgine/src/"
-	}
+	includedirs{ "./antgine/TPD/spdlog/include", "./antgine/src" }
 
 	links{
 	"antgine"
