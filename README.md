@@ -1,2 +1,2 @@
 # Antgine
-Engine for an ant-game
+Engine based on Hazel and an ant-game
