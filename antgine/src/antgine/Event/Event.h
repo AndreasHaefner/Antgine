@@ -24,4 +24,27 @@ namespace antgine {
 		EventCategoryMouseButton = BIT(4),
 
 	}; 
+
+
+
+	class ANGINE_API Event
+	{
+	public:
+		Event();
+		~Event();
+
+	private:
+
+	};
+
+	
+
+
+
+
+
+
+
+
+
 }

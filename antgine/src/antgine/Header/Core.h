@@ -1,8 +1,8 @@
 #pragma once
 
 
-#ifdef AG_PLATFORM_WINDOWS
-	#ifdef AG_BUILD_DLL
+#ifdef ANT_PLATFORM_WINDOWS
+	#ifdef ANT_BUILD_DLL
 		#define ANGINE_API __declspec(dllexport)
 	#else
 		#define ANGINE_API __declspec(dllimport)

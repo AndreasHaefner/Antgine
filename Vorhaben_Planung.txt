@@ -1,0 +1,53 @@
+AmeisenSpiel (Name in Bearbeitung):
+
+
+Map als Hexa-Felder?
+
+Was soll es können:
+Singleplayer (fürs erste)
+Aufbauspiel
+mehrlagig in Untergrund
+
+Bedürfnisse Ameisen:
+Essen
+
+Reproduktion Ameisen:
+Mehr recherche nötig
+
+
+Gebäude:
+Unterirdisch? 
+Ameisenhügel als einziges Oberirdisches Gebäude?
+
+
+
+Skalierung:
+kleine Ameisen
+
+
+Ressourcen:
+-Nahrung
+
+-Holz
+Holzbeiserameisen?
+Sameln von Ästen
+
+-Blätter
+
+-Plutonium zum mutieren von Ameisen? -Ziel Anreiz?
+
+-mehr recherche
+
+
+
+Ameisentypen:
+Holzbeiserameisen!
+Trägerameisen
+Grabeameisen (Steuerbar?)
+Armee-Ameisen?
+Zombie-Ameisen?
+
+
+
+
+

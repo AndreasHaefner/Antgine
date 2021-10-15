@@ -33,8 +33,8 @@ project "antgine"
 		systemversion "latest"
 
 		defines{
-		"AG_PLATFORM_WINDOWS",
-		"AG_BUILD_DLL"
+		"ANT_PLATFORM_WINDOWS",
+		"ANT_BUILD_DLL"
 		}
 
 		postbuildcommands{
@@ -43,15 +43,15 @@ project "antgine"
 
 
 	filter "configurations:Debug"
-		defines "AG_DEBUG"
+		defines "ANT_DEBUG"
 		symbols "On"
 
 	filter "configurations:Release"
-		defines "AG_RELEASE"
+		defines "ANT_RELEASE"
 		optimize "On"
 
 	filter "configurations:Dist"
-		defines "AG_DIST"
+		defines "ANT_DIST"
 		optimize "On"
 
 
@@ -85,18 +85,18 @@ project "dasWuseln"
 		systemversion "latest"
 
 		defines{
-		"AG_PLATFORM_WINDOWS"
+		"ANT_PLATFORM_WINDOWS"
 		}
 
 	filter "configurations:Debug"
-		defines "AG_DEBUG"
+		defines "ANT_DEBUG"
 		symbols "On"
 
 	filter "configurations:Release"
-		defines "AG_RELEASE"
+		defines "ANT_RELEASE"
 		optimize "On"
 
 	filter "configurations:Dist"
-		defines "AG_DIST"
+		defines "ANT_DIST"
 		optimize "On"
 

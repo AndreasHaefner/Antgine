@@ -78,7 +78,7 @@
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>AG_PLATFORM_WINDOWS;AG_BUILD_DLL;AG_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ANT_PLATFORM_WINDOWS;ANT_BUILD_DLL;ANT_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>TPD\spdlog\include;src\antgine\Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
@@ -98,7 +98,7 @@
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>AG_PLATFORM_WINDOWS;AG_BUILD_DLL;AG_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ANT_PLATFORM_WINDOWS;ANT_BUILD_DLL;ANT_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>TPD\spdlog\include;src\antgine\Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -122,7 +122,7 @@
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>AG_PLATFORM_WINDOWS;AG_BUILD_DLL;AG_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ANT_PLATFORM_WINDOWS;ANT_BUILD_DLL;ANT_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>TPD\spdlog\include;src\antgine\Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -143,11 +143,11 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ApplicationEvent.h" />
-    <ClInclude Include="Event.h" />
-    <ClInclude Include="KeyEvent.h" />
-    <ClInclude Include="MouseEvent.h" />
     <ClInclude Include="src\Antgine.h" />
+    <ClInclude Include="src\antgine\Event\ApplicationEvent.h" />
+    <ClInclude Include="src\antgine\Event\Event.h" />
+    <ClInclude Include="src\antgine\Event\KeyEvent.h" />
+    <ClInclude Include="src\antgine\Event\MouseEvent.h" />
     <ClInclude Include="src\antgine\Header\Application.h" />
     <ClInclude Include="src\antgine\Header\Core.h" />
     <ClInclude Include="src\antgine\Header\EntryPoint.h" />

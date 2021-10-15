@@ -10,8 +10,8 @@
     <Filter Include="antgine\Source">
       <UniqueIdentifier>{0B429448-F70F-884E-E0A3-F874CC1064B3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="antgine\Events">
-      <UniqueIdentifier>{9b978476-5b87-4027-8c3f-d001138cab72}</UniqueIdentifier>
+    <Filter Include="antgine\Event">
+      <UniqueIdentifier>{3471f803-c239-471b-aa15-7f1d0354b39e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -28,17 +28,17 @@
     <ClInclude Include="src\antgine\Header\Log.h">
       <Filter>antgine\Header</Filter>
     </ClInclude>
-    <ClInclude Include="Event.h">
-      <Filter>antgine\Events</Filter>
+    <ClInclude Include="src\antgine\Event\MouseEvent.h">
+      <Filter>antgine\Event</Filter>
     </ClInclude>
-    <ClInclude Include="ApplicationEvent.h">
-      <Filter>antgine\Events</Filter>
+    <ClInclude Include="src\antgine\Event\KeyEvent.h">
+      <Filter>antgine\Event</Filter>
     </ClInclude>
-    <ClInclude Include="KeyEvent.h">
-      <Filter>antgine\Events</Filter>
+    <ClInclude Include="src\antgine\Event\Event.h">
+      <Filter>antgine\Event</Filter>
     </ClInclude>
-    <ClInclude Include="MouseEvent.h">
-      <Filter>antgine\Events</Filter>
+    <ClInclude Include="src\antgine\Event\ApplicationEvent.h">
+      <Filter>antgine\Event</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
